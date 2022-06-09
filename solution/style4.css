@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lightseagreen;
+}
+.cart{
+     /* display: flex; */
+     text-align: right;
+}
+.fa-cart{
+    /* margin-right:15px; */
+    display: flex;
+    /* align-items: flex-end; */
+    padding-left: 20px;
+}
+.fa-user{
+    padding-left: 30px;
+}
+.fa-search{
+    padding-left: 30px;
+}
+.img{
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+marquee{
+    font-size: 45px;
+    color: red solid;
+    background-color:navy;
+}
+.price{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fit,20rem);
+}
+.samsung{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fit,20rem);
+    background-color: rgb(55, 105, 117);
+}
+.newnd{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+#mrs {
+    background-color: brown;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+#mrs img{
+    align-content: center;
+    padding: 50px;
+}

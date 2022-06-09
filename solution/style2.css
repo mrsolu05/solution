@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+body{
+    background: url(img/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center ;
+}
+form{
+    padding: 40px;
+    /* display: flex; */
+    text-align: center;
+    position: relative;
+    /* max-width: 80rem; */
+}
+form input{
+    width: 800px;
+    height: 5vh;
+    padding-left: 10px;
+    /* display: flex; */
+}
+.fa-eye{
+    position: absolute;
+    top: 8.6rem;
+    left: 29rem;
+    color: black solid;
+}
+.navigation-dots{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.navigation-dots input{
+    width: 450px;
+    height: 55px;
+    border-radius:15px;
+    border-color: #302a2a;
+    position: relative;
+
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: black solid;
+}
+.signup{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+footer .alldiv{
+    background:darkslategray;
+    color: var(--light);
+    text-align: center;
+    /* justify-content: center; */
+    padding: 5px;
+    margin-top: 40px;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat( 3,1fr);
+}
+.alldiv{
+    display: flex;
+}
+/* footer.copy p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+#sub input{
+    font-size: 15px;
+    width: 300px;
+    border-radius: 20px red solid;
+    background-color: #fff;
+    height: 25px;
+    border-color: red;
+}
+#sub i{
+    /* background-color: sandybrown; */
+    padding: 20px;
+}
+.link li{
+    list-style: none;
+    font-size: 17px;
+    font-size: 20px;
+    padding: 3px;
+
+}
+.alldiv .copy h3{
+text-align: center;
+justify-content: center;
+flex-direction: column;
+direction: center;
+text-align-last: center;
+}
+.mian-footer i{
+  padding: 7px;
+
+}
+/* @media (max-width: 879px){
+    .navigatio{
+        display: block;
+    }
+    #menu-btn{
+        display: inline-block;
+
+    } */
+    /* .navbar{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        left: 0px;
+        background-color: white;
+    } */
+    /* .navbar.active{
+       display: inline-block;  
+    } */
+    /* li{
+        width: 100%;
+        color: black;
+        padding-top: 15px;
+    }
+}
+.home{
+    overflow: hidden;
+
+}
+.container{
+    display: flex;
+    background-color: blue; */
+/* } */
+/* @media (max-width:879px) {
+    .container{
+        display: block;
+    } */
+
+/* .reg{
+    width: 2005px;
+}
+.reg input{
+    padding: 12px 30px;
+    width: 300px;
+    
+}
+form{
+    padding: 4px;
+    width: max-content;
+    position: relative;
+}
+.fa-eye{
+    position: absolute;
+    top: 80px;
+    left: 620px;
+    color: white;
+
+}
+.fa-eye-slash.active::before{
+    content: "\f070";
+    color: black;
+   
+} */
+/* .my form{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: center;
+    display: grid;
+    
+    
+} */
+/* .img{
+    padding: 7px;
+    margin-left: 15px;
+    margin-top: 5px;
+} */
